@@ -10,8 +10,8 @@ import { SocialService } from '../services/social.service';
 export class HeaderComponent implements OnInit {
   @Input() titolo: '';
 
-  private notificheFacebook: number;
-  private notificheTwitter: number;
+  notificheFacebook: number;
+  notificheTwitter: number;
 
   constructor(private contesto: ContextService, 
               private social: SocialService) {
